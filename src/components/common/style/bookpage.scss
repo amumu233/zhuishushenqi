@@ -1,0 +1,304 @@
+.page-detail-container {
+  width: 930px;
+  margin: 50px auto;
+  background: #fff;
+}
+
+.clearfix {
+  zoom: 1;
+  display: table;
+}
+
+.page-detail-container .detail-right {
+  float: right;
+  width: 220px;
+  .app-download {
+    background-color: #f3f3f3;
+    text-align: center;
+    .tip {
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      font-size: 12px;
+      color: #666;
+    }
+  }
+  .block {
+    margin-bottom: 40px;
+    .content {
+      padding: 20px 0;
+    }
+    .title {
+      height: 40px;
+      line-height: 60px;
+      color: #777;
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+}
+
+.page-detail-container .detail-right .recommend-list li {
+  margin-bottom: 30px;
+  img {
+    float: left;
+    width: 96px;
+    height: 118px;
+    margin-right: 14px;
+    box-shadow: 0 4px 5px #bbb;
+  }
+  .info {
+    float: left;
+    width: 110px;
+    h4 {
+      font-size: 14px;
+      line-height: 18px;
+      margin-bottom: 10px;
+    }
+    .author {
+      font-size: 14px;
+      line-height: 18px;
+    }
+    .desc {
+      margin-top: 10px;
+      font-size: 12px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+    }
+  }
+}
+
+.page-detail-container .detail-left {
+  margin-right: 250px;
+}
+
+.page-detail-container .detail-left .book-section h3 .more {
+  position: absolute;
+  right: 0;
+  font-size: 14px;
+  cursor: pointer;
+  width: 90px;
+  font-weight: 100;
+}
+
+.page-detail-container .detail-left .book-section h3 .more i {
+  font-style: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.page-detail-container .detail-left .book-section h3 .more .arrow {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  background: url(../images/icon/arrow-down.png) center center no-repeat;
+  background-size: 100% 100%;
+}
+
+.page-detail-container .detail-left .book-section .hidden-list {
+  height: 410px;
+  overflow: hidden;
+}
+
+.page-detail-container .detail-left .book-section .chapter-list {
+  overflow: hidden;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.page-detail-container .detail-left .book-section .chapter-list li {
+  float: left;
+  width: 50%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+}
+
+.page-detail-container .detail-left .book-section .chapter-list li a, .page-detail-container .detail-left .book-section .chapter-list li a:visited {
+  padding-left: 40px;
+  color: #666;
+}
+
+.page-detail-container .detail-left .book-section .comment-list {
+  padding: 20px 0 0;
+  overflow: hidden;
+}
+
+.page-detail-container .detail-left .book-section .comment-list li {
+  position: relative;
+}
+
+.page-detail-container .detail-left .book-section .comment-list li .good {
+  position: absolute;
+  right: 0;
+  top: 0;
+  i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    background: url(../images/icon/good.png) center center no-repeat;
+    background-repeat: no-repeat;
+    background-position: center left;
+  }
+  span {
+    display: inline-block;
+    vertical-align: sub;
+    color: #999;
+    font-size: 13px;
+    padding-left: 5px;
+  }
+}
+
+.page-detail-container .detail-left .book-section .comment-list li .avater {
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+}
+
+.page-detail-container .detail-left .book-section .comment-list li .right-content {
+  margin-left: 50px;
+  .name {
+    height: 20px;
+    line-height: 20px;
+    color: #3c98c9;
+    font-size: 12px;
+  }
+  .con {
+    line-height: 18px;
+    margin: 5px 0;
+    font-size: 12px;
+    color: #666;
+    text-overflow: ellipsis;
+  }
+}
+
+.page-detail-container .detail-bottom {
+  margin-top: 60px;
+  border-top: 1px solid #ddd;
+  height: 80px;
+  line-height: 26px;
+  padding-top: 20px;
+}
+
+.page-detail-container .detail-left .book-info {
+  width: 100%;
+}
+
+.page-detail-container .detail-left .book-info .cover {
+  float: left;
+  width: 120px;
+  height: 150px;
+  box-shadow: 0 4px 5px #bbb;
+}
+
+.page-detail-container .detail-left .book-section, .page-detail-container .detail-right .block {
+  margin-bottom: 40px;
+}
+
+.page-detail-container .detail-left .book-section {
+  h3 {
+    position: relative;
+    padding-left: 5px;
+    border-left: 3px solid #cab389;
+    font-size: 16px;
+    color: #666;
+  }
+  .intro {
+    position: relative;
+    line-height: 20px;
+    font-size: 12px;
+    color: #666;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .content {
+    padding: 20px 0;
+  }
+}
+
+.page-detail-container .detail-left .book-info .info {
+  margin-left: 150px;
+  height: 100%;
+  h1 {
+    line-height: 25px;
+    font-size: 20px;
+    color: #666;
+  }
+  .tags {
+    padding: 10px 0 0;
+  }
+}
+
+.page-detail-container .detail-left .book-info .info .sup {
+  padding: 6px 0;
+  color: #999;
+  font-size: 12px;
+}
+
+.page-detail-container .detail-left .book-info .info .tags i, .page-detail-container .detail-left .book-section h3 .more i {
+  font-style: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.page-detail-container .detail-left .book-info .info .tags i {
+  height: 24px;
+  line-height: 24px;
+  padding: 0 10px;
+  margin-right: 10px;
+  color: #fff;
+  background-color: #86d196;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.page-detail-container .detail-left .book-info .info .sup span, .page-detail-container .detail-left .book-section .comment-list li .right-content .name .date, .split {
+  padding: 0 10px;
+}
+
+.page-detail-container .detail-left .book-info .info .start-read, .page-detail-container .detail-left .book-info .info .start-read:visited {
+  margin-top: 8px;
+  width: 120px;
+  height: 30px;
+  display: block;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  background-color: #d82626;
+  font-size: 14px;
+}
+
+.page-detail-container .detail-left .book-data {
+  border-bottom: 1px solid #ddd;
+  padding: 40px 0 30px;
+  margin-bottom: 20px;
+  div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 32%;
+    text-align: center;
+    .key {
+      display: block;
+      height: 20px;
+      line-height: 20px;
+      color: #999;
+      font-size: 14px;
+      font-style: normal;
+    }
+    .value {
+      display: block;
+      height: 30px;
+      line-height: 30px;
+      font-size: 18px;
+      font-weight: 700;
+      font-style: normal;
+      color: #d82626;
+    }
+  }
+}

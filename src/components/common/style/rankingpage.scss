@@ -1,0 +1,100 @@
+.page-ranking {
+  display: inline-block;
+  width: 100%;
+  padding: 15px 0;
+
+  .content {
+    float: right;
+    width: 880px;
+    padding: 0 15px;
+    background: #fff;
+  }
+  .title {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 15px;
+    color: #cab389;
+    font-size: 22px;
+    font-weight: 700;
+
+  }
+}
+
+section {
+  clear: both;
+}
+
+.c-full-menu .menu-title {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  border-left: 5px solid #cab389;
+}
+
+.c-full-menu .more-sort, .c-full-menu .sort {
+  margin-bottom: 15px;
+}
+
+.c-full-menu .more-cells, .c-full-menu .sort-cells {
+  padding: 0 15px;
+  margin-bottom: 10px;
+}
+
+.c-full-menu .sub-sort-cells {
+  padding: 0 15px;
+  p {
+    line-height: 30px;
+    padding: 15px;
+    font-size: 14px;
+    background: #f4f2ef;
+    .sub-sort-cell {
+      display: inline-block;
+      height: 30px;
+      padding: 0 10px;
+    }
+  }
+}
+
+.c-full-menu .more-cells .more-cell, .c-full-menu .more-cells .sort-cell, .c-full-menu .sort-cells .more-cell, .c-full-menu .sort-cells .sort-cell {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.c-full-menu .more-cells .active, .c-full-menu .more-cells .active:hover, .c-full-menu .sort-cells .active, .c-full-menu .sort-cells .active:hover, .c-full-menu .sub-sort-cells p .active, .c-full-menu .sub-sort-cells p .active:hover {
+  color: #fff;
+  border-radius: 2px;
+  background: #d82626;
+}
+
+.page-ranking .content .c-full-page {
+  float: right;
+}
+
+.c-full-page {
+  clear: both;
+  display: inline-block;
+  margin: 15px 0;
+  color: #999;
+  font-size: 12px;
+}
+
+.content .books-list {
+  padding: 0 0 80px;
+  .book {
+    width: 410px;
+    position: relative;
+    float: left;
+    padding: 20px 15px;
+  }
+}
+
+
