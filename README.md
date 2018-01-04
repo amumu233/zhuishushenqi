@@ -15,7 +15,7 @@
 
 ### 追书神器API接口文档
 
-[追书神器API接口文档]('./API-接口文档.md')
+[追书神器API接口文档]('https://github.com/amumu233/zhuishushenqi/wiki/API-%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3')
 
 ### 目标功能
 - 主页      
