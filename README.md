@@ -38,18 +38,25 @@
 
 主页
 ![](./screenshots/追书神器webapp.png)
+---
 精选
 ![](./screenshots/selection.png)
+---
 分类
 ![](./screenshots/category.png)
+---
 书单
 ![](./screenshots/bookList.png)
+---
 书单详情
 ![](./screenshots/bookListDetail.png)
+---
 排行
 ![](./screenshots/rank.png)
+---
 书籍详情
 ![](./screenshots/read.png)
+---
 阅读书籍
 ![](./screenshots/reading.png)
 
